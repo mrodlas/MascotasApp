@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteActivity">
+
+
+    <EditText
+        android:id="@+id/escribePropietario"
+        android:layout_width="328dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:hint="Nombre de un propietario"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bton_eliminar"
+        android:layout_width="305dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="138dp"
+        android:backgroundTint="#7EA8B3"
+        android:text="ELIMINAR MASCOTAS"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/escribePropietario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
